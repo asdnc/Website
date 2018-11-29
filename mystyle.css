@@ -1,0 +1,35 @@
+ .about {
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+}
+<!-- created a class for font family. applied to the h2 About section below -->p {
+	font-family: cursive;
+}
+.outline1 {
+	border-style: double;
+	border-color: black;
+	border-width: thin;
+}
+.outline2 {
+	border-style: double;
+	border-color: darkorange;
+	border-width: thin;
+	border-radius: 20px;
+	width: 100%;
+	height: 30px;
+	margin: 50 auto;
+	background: repeating-linear-gradient(45deg, coral 0px, pink 40px, gray 40px, gray 80px);
+}
+body {
+	background-image: url(https://images.pexels.com/photos/268715/pexels-photo-268715.jpeg?cs=srgb&dl=bubble-clear-dew-268715.jpg&fm=jpg);
+}
+#projects {
+	<!-- created an ID -->border-radius: 50px;
+	width: 80%;
+	height: 600px;
+	margin-top: 75px;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-bottom: 75px;
+	background: linear-gradient(45deg, #58d6cc, #58a1d6);
+}
